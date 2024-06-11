@@ -140,7 +140,7 @@ nav {
 
 .noticias {
     position: relative;
-    top: 60px;
+    top: 80px;
 }
 
 .carouselNoticias {
@@ -164,7 +164,7 @@ nav {
 }
 
 .card-body {
-    height: 15rem;
+    height: 19rem;
     overflow: auto;
 }
 
