@@ -9,6 +9,19 @@ body{
     border: 0;
 }
 
+.inika-regular {
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .inika-bold {
+    font-family: "Inika", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
 ::-webkit-scrollbar{
     display: none;
 }
@@ -74,15 +87,99 @@ nav {
 
 .tela-2 {
     height: 100vh;
+    background-color: #b0f25ac7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.conteudoMateriais {
     background-color: #AFF25A;
+    width: 80%;
+    height: 80%;
+    border-radius: 70px 70px;
+}
+
+.conteudoMateriais > div > h2 {
+    font-size: 70px;
+    display: flex;
+    font-family: "inika", serif;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: #D5E9BC;
+    border-radius: 70px 70px 0% 0%;
+}
+
+.imagemMateriais > img {
+    height: 300px;
+}
+
+.imagemMateriais {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 110px;
 }
 
 .tela-3{
     height: 100vh;
-    background-color: #CDFDFF;
+    background-color: #cdfdffad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.carousel {
+.conteudoNoticias {
+    background-color: #CDFDFF;
+    width: 80%;
+    height: 90%;
+    border-radius: 70px 70px;
+}
+
+.noticias {
+    position: relative;
+    top: 60px;
+}
+
+.carouselNoticias {
+    width: 100%;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 0px 30px;
+    width: 24rem;
+}
+
+.card > img {
+    width: 24rem;
+    height: 20rem;
+}
+
+.card-body {
+    height: 15rem;
+    overflow: auto;
+}
+
+.conteudoNoticias > div > h2 {
+    font-size: 70px;
+    display: flex;
+    font-family: "inika", serif;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: #A9EBEE;
+    border-radius: 70px 70px 0% 0%;
+}
+
+.carouselPrincipal {
     margin: auto;
     width: 50%;
 }
@@ -95,5 +192,5 @@ nav {
 
 .carousel-item > img {
     margin: auto;
-    height:60vh;
+    height: 60vh;
 }

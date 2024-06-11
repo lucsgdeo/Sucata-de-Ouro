@@ -1,65 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
+  <title>Document</title>
 </head>
+
 <body>
-    <div class="tela tela-1">
-        <nav>
-            <img src="img/logopi 2.jpg" alt="logo">
-            <nav class="nav-inside">
-                <a class="text-nav" href="">Home</a>
-                <a class="text-nav" href="">Sobre Nós</a>
-                <a class="text-nav" href="">Parcerias</a>
-                <a class="text-nav" href="">Materiais Reciclados</a>
-                <button><a class="text-nav" href="">Usuário</a></button>
-            </nav>
-        </nav>
+  <div class="tela tela-1">
+    <nav>
+      <img src="img/logopi 2.jpg" alt="logo">
+      <nav class="nav-inside">
+        <a class="text-nav" href="">Home</a>
+        <a class="text-nav" href="">Sobre Nós</a>
+        <a class="text-nav" href="">Parcerias</a>
+        <a class="text-nav" href="">Materiais Reciclados</a>
+        <button><a class="text-nav" href="">Usuário</a></button>
+      </nav>
+    </nav>
 
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <div id="carouselExampleIndicators" class="carousel slide carouselPrincipal">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carousel/logo-carousel.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/carousel/materiais-carosel.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img//carousel/residuos.png" class="d-block w-50" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img//carousel/Sobre-nos-carousel.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div>
+  <div class="tela-2">
+    <div class="conteudoMateriais">
+      <div>
+        <h2 class="inika-regular">MATERIAIS RECICLADOS</h2>
+      </div>
+      <div class="imagemMateriais">
+        <a href=""><img src="img/Materiais/papel.png" alt=""></a>
+        <a href=""><img src="img/Materiais/Garrafas.png" alt=""></a>
+        <a href=""><img src="img/Materiais/Metal.png" alt=""></a>
+        <a href=""><img src="img/Materiais/Vidro.png" alt=""></a>
+      </div>
+    </div>
+  </div>
+  <div class="tela-3">
+    <div class="conteudoNoticias">
+      <div>
+        <h2 class="inika-regular">ÚLTIMAS NOTÍCIAS</h2>
+      </div>
+      <div class="noticias">
+        <div id="carouselExample" class="carousel slide carouselNoticias">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-wrapper">
+                <div class="card">
+                  <img src="img/noticias/n1.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">“É preciso diferenciar lixo de resíduo”, afirma especialista sobre reciclagem
+                    </h5>
+                    <p class="card-text">"Descubra como pequenas mudanças no seu dia a dia podem fazer uma grande
+                      diferença para o planeta! Clique para ler dicas práticas e inspiradoras sobre reciclagem,
+                      reutilização e sustentabilidade. Juntos, podemos transformar o futuro do nosso planeta!"</p>
+                    <a href="https://www.dmanapolis.com.br/noticia/60935/le-preciso-diferenciar-lixo-de-residuor-afirma-especialista-sobre-reciclagem"
+                      class="btn btn-primary">Link</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="img/noticias/n2.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dia Mundial do Meio Ambiente: escolas municipais de Caraguatatuba recebem
+                      ação didática sobre reciclagem e cinema</h5>
+                    <p class="card-text">Descubra como duas escolas em Caraguatatuba estão transformando o Dia Mundial
+                      do Meio Ambiente com o [Re]Ciclo de Cinema 2024, uma jornada educativa sobre reciclagem para quase
+                      1.000 alunos!</p>
+                    <a href="https://saladanoticia.com.br/noticia/85999/dia-mundial-do-meio-ambiente-escolas-municipais-de-caraguatatuba-recebem-acao-didatica-sobre-reciclagem-e-cinema"
+                      class="btn btn-primary">Link</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="img/noticias/n3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">12° Drive-Thru da Reciclagem</h5>
+                    <p class="card-text">"Participe do 12º Drive-Thru da Reciclagem em Campo Grande! Descarte seus
+                      resíduos de forma sustentável sem sair do carro, de 6 a 8 de junho. Ajude a preservar o meio
+                      ambiente e contribua com doações para famílias necessitadas!"</p>
+                    <a href="https://www.campogrande.ms.gov.br/cgnoticias/noticia/12o-drive-thru-da-reciclagem-comeca-nesta-quinta-feira-na-capital/"
+                      class="btn btn-primary">Link</a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/carousel/logo-carousel.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/carousel/materiais-carosel.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img//carousel/residuos.png" class="d-block w-50" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img//carousel/Sobre-nos-carousel.png" class="d-block w-100" alt="...">
+            <div class="carousel-item">
+              <div class="card-wrapper">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-item">
+              <div class="card-wrapper">
+
+              </div>
+            </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    </div>
-    <div class="tela-2">
-        <h1>tela 2</h1>
-    </div>
-    <div class="tela-3">
-        <h1>tela 3</h1>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
