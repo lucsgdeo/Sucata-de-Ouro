@@ -1,0 +1,82 @@
+.tela {
+    height: 100vh;
+}
+
+.barra {
+    background-color: #CDFDFF;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.barra > div > h1 {
+    font-size: 400%;
+}
+
+.barra > div > p {
+    font-size: 160%;
+}
+
+.imgText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.imgText > a > img{
+    height: 12vh;
+}
+
+.conteudo {
+    height: 120%;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms {
+    height: 80%;
+    width: 80%;
+    background-color: #cdf3f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+}
+
+.forms > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.forms > form > input{
+    background-color: #EDEBEB;
+    border: none;
+    border-radius: 20px;
+    padding-left: 1vw;
+    font-size: 20px;
+    width: 90%;
+    height: 9vh;
+    margin-bottom: 5%;
+}
+
+.forms > form > ::placeholder {
+    color: black;
+}
+
+.forms > form > button {
+    background-color: #EC0D0D;
+    color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    width: 10vw;
+    height: 6vh;
+    font-weight: 800;
+    font-size: 25px;
+}

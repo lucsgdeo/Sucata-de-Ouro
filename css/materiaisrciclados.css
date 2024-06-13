@@ -1,0 +1,42 @@
+body {
+    background-color: whitesmoke !important;
+}
+
+.tela {
+    width: 100vw;
+    padding-block: 2vw;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.botoes {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 80% !important;
+    font-size: 5vh !important;
+    padding: 3vh !important;
+    background-color: #d5e9bc00 !important;
+    color: black !important;
+    border-color: #0dcaf0 !important;
+}
+
+.collapse {
+    width: 83% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+}
+
+.card {
+    border-color: #0dcaf0 !important;
+    background-color: #0dcaf000 !important;
+}

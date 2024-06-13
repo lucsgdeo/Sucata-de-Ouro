@@ -52,6 +52,8 @@ nav {
     height: auto;
     padding-inline: 30px;
     margin-bottom: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .nav-inside {
@@ -155,11 +157,11 @@ nav {
 
 .card {
     margin: 0px 30px;
-    width: 24rem;
+    width: 24rem !important;
 }
 
 .card > img {
-    width: 24rem;
+    width: 23.92rem;
     height: 20rem;
 }
 
@@ -193,4 +195,8 @@ nav {
 .carousel-item > img {
     margin: auto;
     height: 60vh;
+}
+
+.bns {
+    width: 6vh !important;
 }

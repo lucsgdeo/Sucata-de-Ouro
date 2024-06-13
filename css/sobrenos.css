@@ -1,0 +1,29 @@
+.tela-1 {
+    background-color: #eae560da;
+    height: auto;
+    padding-bottom: 5%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content > h1 {
+    background-color: #F1ECB9;
+    width: 90%;
+    padding: 2%;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.content > div {
+    width: 90%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}

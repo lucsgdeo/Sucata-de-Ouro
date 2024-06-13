@@ -1,0 +1,39 @@
+.content {
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.parDiadema {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 9vh;
+}
+
+.card {
+    width: 20vw !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none !important;
+    background-color: whitesmoke !important;
+    padding-block: 2vh;
+}
+
+.card > img {
+    width: 18vw;
+    height: 25vh;
+}
+
+.card-body{
+    width: 20vw;
+}
+
+.card-text {
+    text-justify: inter-word;
+}
