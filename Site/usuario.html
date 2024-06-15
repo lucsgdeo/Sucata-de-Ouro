@@ -12,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" href="img/logopi_2-removebg-preview.png">
+  <script src="js/index.js"></script>
   <title>Sucata de Ouro</title>
 </head>
 
@@ -29,12 +30,12 @@
     </nav>
     <div class="conteudo">
       <div class="forms">
-        <form action="">
-          <input type="email" name="email" id="email" placeholder="Email/CNPJ:">
+        <div class="form">
+          <input type="text" name="email" id="email" placeholder="Email/CNPJ:">
           <input type="password" name="password" id="password" placeholder="Senha:">
-          <button class="botao">ENTRAR</button>
-        </form>
-      </div>
+          <button class="botao" onclick="pegarDados()">ENTRAR</button>
+        </div>
+      </div>  
     </div>
   </div>
 

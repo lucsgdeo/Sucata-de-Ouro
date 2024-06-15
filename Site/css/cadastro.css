@@ -48,14 +48,14 @@
     border-radius: 70px;
 }
 
-.forms > form {
+.forms > .form{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.forms > form > input{
+.forms > .form> input{
     background-color: #EDEBEB;
     border: none;
     border-radius: 20px;
@@ -66,16 +66,16 @@
     margin-bottom: 5%;
 }
 
-.forms > form > ::placeholder {
+.forms > .form> ::placeholder {
     color: black;
 }
 
-.forms > form > button {
+.forms > .form> button {
     background-color: #EC0D0D;
     color: whitesmoke;
     border: none;
     border-radius: 20px;
-    width: 10vw;
+    width: auto;
     height: 6vh;
     font-weight: 800;
     font-size: 25px;
